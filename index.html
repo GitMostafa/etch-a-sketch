@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Etch A Sketch</title>
+    </head>
+    <body>
+        <div class="page_container">
+            <div class="header_text">
+                <h1>Etch A Sketch!</h1>
+            </div>
+            <div class="options_bar">
+                <input type="color" id="color_choice" name="color_choice" value="#EBF2F8">
+                <button class="color_mode option_button">Color Mode</button>
+                <button class="black_mode option_button">Black</button>
+                <button class="eraser option_button">Eraser</button>
+                <button class="clear option_button">Clear</button>
+                <div class="grid_size_slider">
+                    <label for="grid_size">Grid Size: 16x16</label>
+                    <input type="range" id="grid_size" name="grid_size" min="1" max="64" value="16">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
