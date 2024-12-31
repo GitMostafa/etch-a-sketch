@@ -1,7 +1,7 @@
 # Etch A Sketch Website
 
 ### Live Demo
-https://gitmostafa.github.io/etch-a-sketch/
+https://mostafa-aboelmagd.github.io/etch-a-sketch/
 
 ### Description
 * Fully Functional Sketch Website Using Mouse Cursor
